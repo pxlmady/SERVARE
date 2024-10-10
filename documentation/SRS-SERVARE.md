@@ -53,7 +53,7 @@ Table of Contents
 This Software Requirements Specification (SRS) document is intend to give a complete overview of PC game project named SERVARE, including the game mechanics, user interface and story therein.
 
 ### 1.2 Product Scope
-The project is a highly-optimised 3D game on PC in a low-poly style. The story is designed to showcase beautiful landscapes and environments, allowing the player to fully immerse themselves in the storyline of this fantasy adventure game. It also provides enjoyment through mechanics that enable players to overcome engaging challenges.
+The project is a highly-optimised 3D game on PC in a low-poly style. The story is designed to showcase beautiful landscapes and environments, allowing the players to fully immerse themselves in the storyline of this fantasy adventure game. It also provides enjoyment through mechanics that enable players to overcome engaging challenges.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
