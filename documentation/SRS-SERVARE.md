@@ -1,5 +1,5 @@
 # Software Requirements Specification
-## For game 🟥 SERVARE 🟥
+## For game SERVARE
 
 Table of Contents
 =================
