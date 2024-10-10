@@ -1,5 +1,5 @@
 # Software Requirements Specification
-## For game - SERVARE
+## For game - Red SERVARE
 
 Table of Contents
 =================
