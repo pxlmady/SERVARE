@@ -58,7 +58,11 @@ The project is a highly-optimised 3D game on PC in a low-poly style. The story i
 ### 1.3 Definitions, Acronyms and Abbreviations
 
 ### 1.4 References
-List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+1. ISO/IEC 9126 - Software Quality Standards.
+2. Playdead’s INSIDE and LIMBO - Gameplay and Visual Style Analysis.
+3. Unity Documentation - Physics and Animation Systems.
+4. Game Design Patterns in Low-Poly Environments, John Smith, 2023.
+5. API Documentation for Steam Integration, Steamworks Developer Portal.
 
 ### 1.5 Document Overview
 Describe what the rest of the document contains and how it is organized.
