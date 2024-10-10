@@ -59,7 +59,7 @@ The project is a highly-optimised 3D game on PC in a low-poly style. The story i
 
 ### 1.4 References
 1. ISO/IEC 9126 - Software Quality Standards.
-2. Playdead’s INSIDE and LIMBO - Gameplay and Visual Style Analysis.
+2. Playdead’s INSIDE and LIMBO - Gameplay, Visual and Sound Design Style Analysis.
 3. Unity Documentation - Physics and Animation Systems.
 4. Game Design Patterns in Low-Poly Environments, John Smith, 2023.
 5. API Documentation for Steam Integration, Steamworks Developer Portal.
