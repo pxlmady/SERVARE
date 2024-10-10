@@ -1,10 +1,5 @@
 # Software Requirements Specification
-## For <project name>
-
-Version 0.1  
-Prepared by <author>  
-<organization>  
-<date created>  
+## For game - SERVARE
 
 Table of Contents
 =================
