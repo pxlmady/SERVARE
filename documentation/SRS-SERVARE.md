@@ -67,10 +67,25 @@ The project is a highly-optimised 3D game on PC in a low-poly style. The story i
 ## 2. Product Overview
 
 ### 2.1 Product Perspective
-SERVARE is a 3D low-poly adventure game designed for the PC platform. It is a standalone product inspired by Playdead’s games such as INSIDE and LIMBO, focusing on an immersive player experience through detailed environments and challenging gameplay challenges. The game does not require any multiplayer components or external server integration. However, it will feature integration with Steam for distribution and achievements. The primary interaction with the game will be through keyboard and mouse, with potential support for gamepads. SERVARE will rely on Unity for physics, animation, and rendering systems. Minimal hardware requirements include a mid-range GPU and at least 8GB of RAM for smooth performance. The product must meet platform-specific requirements for Steam integration, such as compliance with the Steamworks SDK for achievements and cloud saving features.
+SERVARE is a 3D linear low-poly adventure game designed for the PC platform. It is a standalone product inspired by Playdead’s games such as INSIDE and LIMBO, focusing on an immersive player experience through detailed environments and challenging gameplay challenges. The game does not require any multiplayer components, external server integration or donation implementation. However, it will feature integration with Steam for distribution and achievements. The primary interaction with the game will be through keyboard and mouse, with potential support for gamepads. SERVARE will rely on Unity for physics, animation, and rendering systems. Minimal hardware requirements include a mid-range GPU and at least 8GB of RAM for smooth performance. The product must meet platform-specific requirements for Steam integration, such as compliance with the Steamworks SDK for achievements and cloud saving features.
 
 ### 2.2 Product Functions
-Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
+1. **Character Movement**: 
+   - The player can control the main character's movement using keyboard and mouse or gamepad inputs.
+2. **Exploration Mechanics**: 
+   - The player can explore the environment, interact with objects, and uncover hidden paths.
+3. **Challenges Solving**: 
+   - The game includes various challenges that players must solve to progress through the story and unlock new areas.
+4. **Save/Load Functionality**: 
+   - Players can save their progress at specific points and load their game from a saved state.
+6. **User Interface**: 
+   - The game features an intuitive and simple user interface. The loading menu must include the game logo in the middle, as well as buttons in the following order:
+        1) Continue
+        2) Load
+        3) Settings
+        4) Exit (Ask the player about assurance of exit)
+ 7. **Sound Design Mechanisms**: 
+   - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment. 
 
 ### 2.3 Product Constraints
 This subsection should provide a general description of any other items that will limit the developer’s options. These may include:  
