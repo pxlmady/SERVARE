@@ -48,7 +48,7 @@ Table of Contents
 |      |         |                     |           |
 |      |         |                     |           |
 
-## 1. Introduction:
+## 1. Introduction
 
 ### 1.1 Document Purpose
 Describe the purpose of the SRS and its intended audience.
