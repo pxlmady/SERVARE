@@ -104,3 +104,12 @@ Sound Card: DirectX 9.0c compatible
 
 ### 3.4 Deadline
 Ship date: December 2024
+
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
