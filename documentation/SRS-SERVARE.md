@@ -91,22 +91,22 @@ The typical SERVARE player is a fan of atmospheric single-player adventures, who
    - The game includes various challenges that players must solve to progress through the story and unlock new areas.
 4. **Save/Load Functionality**: 
    - Players can save their progress at specific points and load their game from a saved state.
-6. **User Interface**: 
+5. **User Interface**: 
    - The game features an intuitive and simple user interface. The loading menu must include the game logo in the middle, as well as buttons in the following order:
-        1) Continue
-        2) Load
-        3) Settings
-        4) Exit (Ask the player about assurance of exit)
- 7. **Sound Design Mechanisms**: 
-   - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment. 
+     1) Continue
+     2) Load
+     3) Settings
+     4) Exit (Ask the player for confirmation before exiting)
+6. **Sound Design Mechanisms**: 
+   - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment.
 
 ### 3.2 Minimum System Requirements:
-Operating System: Windows 7/8/10 (64-bit)
-Processor: Intel Core i5-750 or equivalent AMD
-Memory: 4 GB RAM
-Graphics: NVIDIA GTX 460 or equivalent AMD Radeon HD 5750 (DirectX 11 compatible)
-Storage: 3 GB available space
-Sound Card: DirectX 9.0c compatible
+Operating System: Windows 7/8/10 (64-bit)  
+Processor: Intel Core i5-750 or equivalent AMD  
+Memory: 4 GB RAM  
+Graphics: NVIDIA GTX 460 or equivalent AMD Radeon HD 5750 (DirectX 11 compatible)  
+Storage: 3 GB available space  
+Sound Card: DirectX 9.0c compatible  
 
 ### 3.3 Deadline
 Ship date: December 2024
