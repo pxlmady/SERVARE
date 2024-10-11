@@ -14,36 +14,18 @@ Table of Contents
   * 2.2 [User Characteristics](#24-user-characteristics)
 * 3 [Requirements](#3-requirements)
   * 3.1 [Functional](#31-functional)
-    * 3.1.1 [User Interfaces](#311-user-interfaces)
-    * 3.1.2 [Hardware Interfaces](#312-hardware-interfaces)
-    * 3.1.3 [Software Interfaces](#313-software-interfaces)
-  * 3.2 [Functional](#32-functional)
-  * 3.3 [Quality of Service](#33-quality-of-service)
-    * 3.3.1 [Performance](#331-performance)
-    * 3.3.2 [Security](#332-security)
-    * 3.3.3 [Reliability](#333-reliability)
-    * 3.3.4 [Availability](#334-availability)
-  * 3.4 [Compliance](#34-compliance)
-  * 3.5 [Design and Implementation](#35-design-and-implementation)
-    * 3.5.1 [Installation](#351-installation)
-    * 3.5.2 [Distribution](#352-distribution)
-    * 3.5.3 [Maintainability](#353-maintainability)
-    * 3.5.4 [Reusability](#354-reusability)
-    * 3.5.5 [Portability](#355-portability)
-    * 3.5.6 [Cost](#356-cost)
-    * 3.5.7 [Deadline](#357-deadline)
-    * 3.5.8 [Proof of Concept](#358-proof-of-concept)
-* 4 [Verification](#4-verification)
-* 5 [Appendixes](#5-appendixes)
+  * 3.2 [Minimum System Requirements](#32-minimum-system-requirements)
+  * 3.3 [Rating](#33-rating)
+  * 3.4 [Deadline](#34-deadline)
 
 
 
 ## Revision History
-| Name | Date    | Reason For Changes  | Version   |
-| ---- | ------- | ------------------- | --------- |
-|      |         |                     |           |
-|      |         |                     |           |
-|      |         |                     |           |
+| Date     | Reason For Changes   | Version   |
+| 11.10.24 | First implementation | --------- |
+|          |                      |           |
+|          |                      |           |
+|          |                      |           |
 
 
 
@@ -56,11 +38,12 @@ This Software Requirements Specification (SRS) document is intend to give a comp
 The project is a highly-optimised 3D game on PC in a low-poly style. The story is designed to showcase beautiful landscapes and environments, allowing the players to fully immerse themselves in the storyline of this fantasy adventure game. It also provides enjoyment through mechanics that enable players to overcome engaging challenges.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+///
 
 ### 1.4 References
 1. ISO/IEC 9126 - Software Quality Standards.
 2. Playdead’s INSIDE and LIMBO - Gameplay, Visual and Sound Design Style Analysis.
-3. Unity Documentation - Physics and Animation Systems.
+3. Unity(version 2022.3.47f1) Documentation - Physics and Animation Systems.
 4. Game Design Patterns in Low-Poly Environments, John Smith, 2023.
 5. API Documentation for Steam Integration, Steamworks Developer Portal.
 
@@ -80,9 +63,10 @@ The typical SERVARE player is a fan of atmospheric single-player adventures, who
 
 ### 3.1 Functional
 1. **Character Movement**: 
-   - The player can control the main character's movement using keyboard and mouse or gamepad inputs.
-2. **Exploration Mechanics**: 
-   - The player can explore the environment, interact with objects, and uncover hidden paths.
+   - The player can control the main character's movement using keyboard and mouse or gamepad inputs (walking, running, jumping, interaction with different objects).
+         1.2 **Character Animation**: 
+             - The character's movements must be smooth and fluid.
+   - The player can explore the environment and uncover hidden paths.
 3. **Challenges Solving**: 
    - The game includes various challenges that players must solve to progress through the story and unlock new areas.
 4. **Save/Load Functionality**: 
@@ -104,5 +88,8 @@ Graphics: NVIDIA GTX 460 or equivalent AMD Radeon HD 5750 (DirectX 11 compatible
 Storage: 3 GB available space  
 Sound Card: DirectX 9.0c compatible  
 
-### 3.3 Deadline
+### 3.3 Rating: 
+6+ y.o.
+
+### 3.4 Deadline
 Ship date: December 2024
