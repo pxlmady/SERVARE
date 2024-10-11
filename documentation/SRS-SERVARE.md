@@ -109,4 +109,4 @@ Storage: 3 GB available space
 Sound Card: DirectX 9.0c compatible
 
 ### 3.3 Deadline
-December 2024
+Ship date: December 2024
