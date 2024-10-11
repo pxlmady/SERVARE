@@ -86,7 +86,7 @@ The typical SERVARE player is a fan of atmospheric single-player adventures, who
    - The game features an intuitive and simple user interface. The loading menu must include the game logo in the middle, as well as buttons in the following order:
      1) Continue
      2) Load
-     3) Settings
+     3) Settings (Graphics (brightness, resolution, full screen {yes/no}), keyboard, volume)
      4) Exit (Ask the player for confirmation before exiting)
 6. **Sound Design Mechanisms**: 
    - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment.
