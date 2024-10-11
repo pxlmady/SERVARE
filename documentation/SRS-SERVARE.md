@@ -40,12 +40,16 @@ Table of Contents
 * 4 [Verification](#4-verification)
 * 5 [Appendixes](#5-appendixes)
 
+
+
 ## Revision History
 | Name | Date    | Reason For Changes  | Version   |
 | ---- | ------- | ------------------- | --------- |
 |      |         |                     |           |
 |      |         |                     |           |
 |      |         |                     |           |
+
+
 
 ## 1. Introduction
 
@@ -64,12 +68,21 @@ The project is a highly-optimised 3D game on PC in a low-poly style. The story i
 4. Game Design Patterns in Low-Poly Environments, John Smith, 2023.
 5. API Documentation for Steam Integration, Steamworks Developer Portal.
 
+
+
 ## 2. Product Overview
 
 ### 2.1 Product Perspective
 SERVARE is a 3D linear low-poly adventure game designed for the PC platform. It is a standalone product inspired by Playdead’s games such as INSIDE and LIMBO, focusing on an immersive player experience through detailed environments and challenging gameplay challenges. The game does not require any multiplayer components, external server integration or donation implementation. However, it will feature integration with Steam for distribution and achievements. The primary interaction with the game will be through keyboard and mouse, with potential support for gamepads. SERVARE will rely on Unity for physics, animation, and rendering systems. Minimal hardware requirements include a mid-range GPU and at least 8GB of RAM for smooth performance. The product must meet platform-specific requirements for Steam integration, such as compliance with the Steamworks SDK for achievements and cloud saving features.
 
-### 2.2 Functional Requirements !!!
+### 2.2 User Characteristics
+The typical SERVARE player is a fan of atmospheric single-player adventures, who enjoys games like INSIDE and LIMBO, focusing on exploration and puzzle-solving.
+
+
+
+## 3. Requirements
+
+### 3.1 Functional
 1. **Character Movement**: 
    - The player can control the main character's movement using keyboard and mouse or gamepad inputs.
 2. **Exploration Mechanics**: 
@@ -87,61 +100,13 @@ SERVARE is a 3D linear low-poly adventure game designed for the PC platform. It 
  7. **Sound Design Mechanisms**: 
    - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment. 
 
-### 2.4 User Characteristics
-The typical SERVARE player is a fan of atmospheric single-player adventures, who enjoys games like INSIDE and LIMBO, focusing on exploration and puzzle-solving.
-
-### 2.5 Assumptions and Dependencies
-List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
-
-### 2.6 Apportioning of Requirements
-Apportion the software requirements to software elements. For requirements that will require implementation over multiple software elements, or when allocation to a software element is initially undefined, this should be so stated. A cross reference table by function and software element should be used to summarize the apportioning.
-
-Identify requirements that may be delayed until future versions of the system (e.g., blocks and/or increments).
-
-## 3. Requirements
-> This section specifies the software product's requirements. Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements, and to enable testers to test that the software system satisfies those requirements.
-
-> The specific requirements should:
-* Be uniquely identifiable.
-* State the subject of the requirement (e.g., system, software, etc.) and what shall be done.
-* Optionally state the conditions and constraints, if any.
-* Describe every input (stimulus) into the software system, every output (response) from the software system, and all functions performed by the software system in response to an input or in support of an output.
-* Be verifiable (e.g., the requirement realization can be proven to the customer's satisfaction)
-* Conform to agreed upon syntax, keywords, and terms.
-
-### 3.1 External Interfaces
-> This subsection defines all the inputs into and outputs requirements of the software system. Each interface defined may include the following content:
-* Name of item
-* Source of input or destination of output
-* Valid range, accuracy, and/or tolerance
-* Units of measure
-* Timing
-* Relationships to other inputs/outputs
-* Screen formats/organization
-* Window formats/organization
-* Data formats
-* Command formats
-* End messages
-
-#### 3.1.1 User interfaces
-Define the software components for which a user interface is needed. Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Details of the user interface design should be documented in a separate user interface specification.
-
-Could be further divided into Usability and Convenience requirements.
-
-#### 3.1.2 Hardware interfaces
-Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
-
-#### 3.1.3 Software interfaces
-Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
-
-### 3.2 Functional
-> This section specifies the requirements of functional effects that the software-to-be is to have on its environment.
-
-### 3.3 Quality of Service
-> This section states additional, quality-related property requirements that the functional effects of the software should present.
-
-#### 3.3.1 Performance
-If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
+### 3.2 Minimum System Requirements:
+Operating System: Windows 7/8/10 (64-bit)
+Processor: Intel Core i5-750 or equivalent AMD
+Memory: 4 GB RAM
+Graphics: NVIDIA GTX 460 or equivalent AMD Radeon HD 5750 (DirectX 11 compatible)
+Storage: 3 GB available space
+Sound Card: DirectX 9.0c compatible
 
 #### 3.3.2 Security
 Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
