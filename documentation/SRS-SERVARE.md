@@ -69,7 +69,7 @@ The project is a highly-optimised 3D game on PC in a low-poly style. The story i
 ### 2.1 Product Perspective
 SERVARE is a 3D linear low-poly adventure game designed for the PC platform. It is a standalone product inspired by Playdead’s games such as INSIDE and LIMBO, focusing on an immersive player experience through detailed environments and challenging gameplay challenges. The game does not require any multiplayer components, external server integration or donation implementation. However, it will feature integration with Steam for distribution and achievements. The primary interaction with the game will be through keyboard and mouse, with potential support for gamepads. SERVARE will rely on Unity for physics, animation, and rendering systems. Minimal hardware requirements include a mid-range GPU and at least 8GB of RAM for smooth performance. The product must meet platform-specific requirements for Steam integration, such as compliance with the Steamworks SDK for achievements and cloud saving features.
 
-### 2.2 Product Functions
+### 2.2 Functional Requirements !!!
 1. **Character Movement**: 
    - The player can control the main character's movement using keyboard and mouse or gamepad inputs.
 2. **Exploration Mechanics**: 
@@ -87,16 +87,8 @@ SERVARE is a 3D linear low-poly adventure game designed for the PC platform. It 
  7. **Sound Design Mechanisms**: 
    - Audio feedback will be provided for player actions, such as successful puzzle completion or interactions with the environment. 
 
-### 2.3 Product Constraints
-This subsection should provide a general description of any other items that will limit the developer’s options. These may include:  
-
-* Interfaces to users, other applications or hardware.  
-* Quality of service constraints.  
-* Standards compliance.  
-* Constraints around design or implementation.
-
 ### 2.4 User Characteristics
-Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.
+The typical SERVARE player is a fan of atmospheric single-player adventures, who enjoys games like INSIDE and LIMBO, focusing on exploration and puzzle-solving.
 
 ### 2.5 Assumptions and Dependencies
 List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
