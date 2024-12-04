@@ -3,7 +3,7 @@
 
 ## OUR TEAM
 - **TEAM-LEAD:** Shevchenko Anna
--**PROJECT MANAGER:** Perkhomenko Violetta 
+- **PROJECT MANAGER:** Perkhomenko Violetta 
 - **DEVELOPER:** Shevchenko Anna, Kriukovska Victoriia
 - **GAME DESIGNER:** Kriukovska Victoriia
 - **TESTING ENGINEER:** Parkhomenko Violetta
